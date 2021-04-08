@@ -21,7 +21,7 @@ public class Square {
     private int squareColorId;
 
     public Square(float x, float y, float size) {
-        float longest = (float) Math.sqrt(3);
+        float longest = (float) Math.sqrt(25);
 
         float a1 = (float) Math.sqrt(((x + size) * (x + size)) + (y * y));
         float b1 = (float) Math.sqrt(((x + size) * (x + size)) + ((y - size) * (y - size)));
